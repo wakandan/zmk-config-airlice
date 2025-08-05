@@ -40,7 +40,7 @@ RC(4,0) RC(4,1) RC(4,2)                 RC(4,5) RC(4,6) RC(4,7)         RC(4,8) 
         display-name = "default";
 
         kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100   25   10       0     0     0>
