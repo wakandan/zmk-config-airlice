@@ -1,15 +1,15 @@
-if SHIELD_BUTTERFREE_LEFT
+if SHIELD_AIRLICE_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Butterfree"
+    default "airlice"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_BUTTERFREE_LEFT || SHIELD_BUTTERFREE_RIGHT
+if SHIELD_AIRLICE_LEFT || SHIELD_AIRLICE_RIGHT
 
 config ZMK_SPLIT
     default y

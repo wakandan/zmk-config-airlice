@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: butterfree_left
+    shield: airlice_left
   - board: nice_nano_v2
-    shield: butterfree_right
+    shield: airlice_right

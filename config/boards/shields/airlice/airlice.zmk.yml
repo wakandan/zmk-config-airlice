@@ -1,6 +1,6 @@
 file_format: "1"
-id: butterfree
-name: Butterfree
+id: airlice
+name: airlice
 type: shield
 url: https://github.com/foostan/crkbd/
 requires:
@@ -9,5 +9,5 @@ exposes:
 features:
   - keys
 siblings:
-  - butterfree_left
-  - butterfree_right
+  - airlice_left
+  - airlice_right
