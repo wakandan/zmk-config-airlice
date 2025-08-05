@@ -1,6 +1,11 @@
 #include "airlice.dtsi" // The shared dtsi file is included in the overlay
 
 // Label of the kscan node in the dtsi
+// col 7 is on the right most side of the board
+// col 7 (right most) -> pin 21
+// col 8 -> pin 20
+// ...
+// col 15 (left most side) -> pin 4
 &kscan0 {
     col-gpios
         = <&pro_micro 21 GPIO_ACTIVE_HIGH> // 21
@@ -11,6 +16,7 @@
         , <&pro_micro 14 GPIO_ACTIVE_HIGH> //14
         , <&pro_micro 16 GPIO_ACTIVE_HIGH> //16
         , <&pro_micro 10 GPIO_ACTIVE_HIGH> //10
+        , <&pro_micro 4 GPIO_ACTIVE_HIGH> 
         ;
 };
 
