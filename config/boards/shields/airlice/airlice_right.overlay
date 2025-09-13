@@ -16,7 +16,8 @@
         , <&pro_micro 14 GPIO_ACTIVE_HIGH> //14
         , <&pro_micro 16 GPIO_ACTIVE_HIGH> //16
         , <&pro_micro 10 GPIO_ACTIVE_HIGH> //10
-        , <&pro_micro 4 GPIO_ACTIVE_HIGH> 
+        , <&pro_micro 9 GPIO_ACTIVE_HIGH> 
+        , <&pro_micro 8 GPIO_ACTIVE_HIGH> 
         ;
 };
 
